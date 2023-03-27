@@ -6,6 +6,8 @@ plugins {
 group = "de.philippulti"
 version = "1.0-SNAPSHOT"
 
+tasks.getByPath("prepareKotlinBuildScriptModel").dependsOn("copyHooks")
+
 subprojects {
 
     apply(plugin="java")
@@ -30,6 +32,11 @@ subprojects {
 
     tasks.test {
         useJUnit()
+    }
+
+    java {
+        sourceCompatibility = JavaVersion.VERSION_16
+        targetCompatibility = JavaVersion.VERSION_16
     }
 
 }

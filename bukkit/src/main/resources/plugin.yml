@@ -1,0 +1,20 @@
+name: Fawe-Addons
+version: 1.0.0
+description: A useful add-on for FastAsyncWorldEdit
+author: Philipp_Ulti
+main: de.philippulti.faweaddons.bukkit.FaweAddonPlugin
+api-version: 1.18
+
+commands:
+  faweaddontest:
+    description: test everything
+    permission: faweaddons.command.legendbrush
+    aliases: /fat
+  helpmessage:
+    description: displays a helpmessage in your text
+    permission: faweaddons.command.compass
+    aliases: /hm
+  multiclipboard:
+    description: use a multiclipboard/asset placer
+    permission: faweaddons.command.multiclipboard
+    aliases: /mc

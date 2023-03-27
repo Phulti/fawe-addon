@@ -1,6 +1,6 @@
-# Multi-Module-Gradle-Project
+# fawe-addon-phultiedit
 
-This is a **multi-module** gradle template project. For example it can be used to provide support for different plugin modules for both bukkit and proxy specific software
+This is a **FastAsyncWorldEdit** addon project. 
 
 
 # Setup
@@ -30,3 +30,4 @@ dependencies {
 ```
 
 ## Add new gradle tasks
+wdawdadadadadadad
